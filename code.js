@@ -24,7 +24,7 @@ function toggleClass(tag, newClass) {
     tag.className = Array.from(classesSet).join(' ');
 }
 
+//проверка
 const $div = document.querySelector('.box');
-
 toggleClass($div, 'border');
 toggleClass($div, 'border');
